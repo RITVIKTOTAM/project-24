@@ -5,7 +5,7 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 
 var engine,world;
-var paperObjectBody,log1,log2,log3,log4,dustbin1;
+var paperObjectBody,log1,log2,log3,log4;
 
 
 
@@ -31,7 +31,7 @@ function setup() {
   
   log4 = new Log(680,165,10,80);
   
-   dustbin1 = new Dustbin(630,85,100,100);
+   
     
 }
 
@@ -50,7 +50,7 @@ function draw() {
  log2.display();
  log3.display();
  log4.display();
- dustbin1.display();
+ 
 }
 
 function keyPressed(){
